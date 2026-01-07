@@ -16,4 +16,4 @@ def get_numbers_ticket(min_value, max_value, quantity):
         random_number = random.randint(min_value, max_value)
         numbers_ticket.add(random_number)
 
-    return sorted(numbers_ticket)
+    return sorted(numbers_ticket) 
